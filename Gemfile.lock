@@ -285,7 +285,7 @@ DEPENDENCIES
   github-pages
   jekyll
   jekyll-github-metadata
-  webrick (~> 1.9)
+  webrick
 
 BUNDLED WITH
    2.3.14
