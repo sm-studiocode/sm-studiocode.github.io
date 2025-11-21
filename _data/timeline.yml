@@ -17,45 +17,44 @@
 #     - tag: Rails
 #   timeline-side: right
 
-- title: airbnb
-  title-url: https://example.com/
-  date: Sep 2019 - Present
-  subtitle: Fullstack Developer
-  tags:
-    - tag: React
-    - tag: Javascript
-    - tag: Ruby
-    - tag: Rails
+# 내용 수정 필요
+
+- title: 한국영상대학교 졸업
+  date: Mar 2011 – Feb 2014
+  subtitle: 애니메이션과
+
   timeline-side: right
 
-- title: Google
-  title-url: https://example.com/
-  date: Mar 2019 - Sep 2019
-  subtitle: Software Engineer as Intern
-  tags:
-    - tag: Flutter
-    - tag: Dart
-    - tag: Keycloak
+- title: 대덕인재개발원 수료
+  date: Aug 2024 – Apr 2025
+  subtitle: 전자정부 표준 프레임워크 기반 풀 스택 개발자 양성과정
+
   timeline-side: right
 
-- title: Super University
-  title-url: https://example.com/
-  date: 2017 - 2019
-  subtitle: M.Sc. Computer Science
+- title: 초급 프로젝트
+  date: Oct 2024 (2 weeks)
+  subtitle: JDBC 기반 콘솔 프로젝트
+  tags:
+    - tag: JAVA
+    - tag: ORACLE
+    - tag: JDBC
   timeline-side: left
 
-- title: Facebook
-  title-url: https://example.com/
-  date: Sep 2017 - Mar 2019
-  subtitle: Front-End Developer as Intern
+- title: 중급 프로젝트
+  date: Dec 2024 (3 weeks)
+  subtitle: JSP 기반 영화관 예매 사이트
   tags:
-    - tag: React
-    - tag: Node
-    - tag: Javascript
+    - tag: JAVA
+    - tag: ORACLE
+    - tag: IBATIS
+    - tag: HTML5
+    - tag: JavaScript
+    - tag: CSS3
+
   timeline-side: right
 
-- title: Super University
-  title-url: https://example.com/
-  date: 2014 - 2017
-  subtitle: B.A. Computer Science
+- title: 최종 프로젝트
+  title-url: https://example.com/ #유튜브 영상 링크 혹은 배포 가능하다면 해당 사이트 링크
+  date: Feb–Apr 2025 (8 weeks)
+  subtitle: SaaS 기반 그룹웨어 플랫폼 개발
   timeline-side: left
