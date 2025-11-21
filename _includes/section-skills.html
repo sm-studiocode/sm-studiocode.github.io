@@ -8,8 +8,8 @@
   <input type="radio" id="framework" name="filter" />
   <label class="filter-button neumorphism-button" for="framework">Frameworks</label>
 
-  <input type="radio" id="LibrariesAndAPI" name="filter" />
-  <label class="filter-button neumorphism-button" for="LibrariesAndAPI">Libs & API</label>
+  <input type="radio" id="libsapi" name="filter" />
+  <label class="filter-button neumorphism-button" for="libsapi">Libs & API</label>
   
   <input type="radio" id="tool" name="filter" />
   <label class="filter-button neumorphism-button" for="tool">Tools</label>
@@ -19,15 +19,16 @@
       {{language.name}}
     </div>
   {% endfor %}
+
   {% for framework in site.data.skills-frameworks %}
     <div skill-type="framework" skill-weight="{{framework.weight}}" data-aos="zoom-in">
       {{framework.name}}
     </div>
   {% endfor %}
 
-  {% for LibrariesAndAPI in site.data.skills-LibsAPI %}
-    <div skill-type="LibrariesAndAPI" skill-weight="{{LibrariesAndAPI.weight}}" data-aos="zoom-in">
-      {{LibrariesAndAPI.name}}
+  {% for libsapi in site.data.skills-libsapi %}
+    <div skill-type="libsapi" skill-weight="{{libsapi.weight}}" data-aos="zoom-in">
+      {{libsapi.name}}
     </div>
   {% endfor %}
 
