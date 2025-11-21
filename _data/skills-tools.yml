@@ -5,7 +5,7 @@
 # - name: Git
 #   weight: 5
 
-- name: Git
+- name: Git (skills-tools.yml에서 수정)
   weight: 5
 
 - name: Bash

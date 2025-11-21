@@ -5,7 +5,7 @@
 # - name: Language
 #   weight: 5
 
-- name: TypeScript
+- name: TypeScript(skills-languages.yml에서 수정)
   weight: 5
 
 - name: JavaScript

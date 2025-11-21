@@ -5,7 +5,7 @@
 # - name: Framework
 #   weight: 5
 
-- name: Angular
+- name: Spring (skills-frameworks.yml에서 수정)
   weight: 5
 
 - name: AngularJS
