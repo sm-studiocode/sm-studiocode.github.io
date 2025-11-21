@@ -1,3 +1,5 @@
+<!-- URL : _config.yml 파일에서 수정 -->
+ 
 <div id="landing">
   <div class="landing-title">
     <h1>Hi, I&#39;m
@@ -10,6 +12,7 @@
       </span>
     </h1>
     <div class="landing-icons">
+      <!-- EMAIL -->
       {% if site.email != null %}
         <a class="social-link email" aria-label="My E-Mail" href="mailto:{{site.email}}">
           <svg viewBox="0 0 200 200" class="circle">
@@ -24,6 +27,7 @@
         </a>
       {% endif %}
 
+      <!-- GITHUB -->
       {% if site.github_username != null %}
         <a class="social-link" aria-label="My GitHub" target="_blank" rel="noreferrer"
           href="https://github.com/{{site.github_username}}"
@@ -40,6 +44,7 @@
         </a>
       {% endif %}
 
+      <!-- TISTORY -->
       {% if site.codepen_username != null %}
         <a class="social-link" aria-label="My Codepen" target="_blank" rel="noreferrer"
           href="https://codepen.io/{{site.codepen_username}}"
@@ -56,7 +61,8 @@
         </a>
       {% endif %}
 
-      {% if site.dev_username != null %}
+      <!-- 사용안함 -->
+      <!-- {% if site.dev_username != null %}
         <a class="social-link" aria-label="My DEV" target="_blank" rel="noreferrer"
           href="https://dev.to/{{site.dev_username}}"
         >
@@ -102,7 +108,7 @@
           </div>
           <span class="label">Twitter</span>
         </a>
-      {% endif %}
+      {% endif %} -->
     </div>
   </div>
 </div>
